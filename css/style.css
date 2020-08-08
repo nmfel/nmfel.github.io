@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+.lineHeight{
+    line-height: 1%;
+}
+
+.introName{
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}
+
+.introSub{
+    font-family: 'PT Sans', sans-serif;
+}
+
+.titl{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+}
+
+.subl{
+    font-family: 'PT Sans', sans-serif;
+    text-align: justify;
+}
+
+.img-responsive{
+    display: inline;
+    width: 8%;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+body{
+    margin-top: 30px;
+}
