@@ -5,95 +5,115 @@ font-family: 'Lato', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
+li {
+  display: inline;
+}
 
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  li {
-    display: inline;
-  }
-  hr {
-    border-top: thin;
-  }
+hr {
+  border-top: thin;
+}
 
-  .container{
-    width: 90%;
-    padding: 0 auto;
-    max-width: 800px;
-    /* border: 2px solid red; */
-  }
+.container {
+  width: 90%;
+  padding: 0 auto;
+  max-width: 800px;
+  /* border: 2px solid red; */
+}
 
-  .navBar {
-    background-color: transparent;
-    overflow: hidden;
-  }
-  .navBar a {
-    float: left;
-    color: #000000;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 15px;
-    font-family: 'Roboto', sans-serif;
-  }
-  .navBar-right {
-    float: right;
-  }
-  .navName {
-    float: left;
-    color: #000000;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    font-family: 'Lato', sans-serif;
-  }
-  .navBar a:hover {
-    background-color: #e8e8e83b;
-  }
-  .navBar a.active {
-    font-weight: bold;
-  }
-  .profileBar {
-    margin : 15% 10% 0 19% !important;
-    min-width: 720px;
-  }
-  .profilePict {
-    float: left;
-    max-width: 150px;
-    min-width: 150px;
-    border-radius: 50%;
-  }
-  .profileText {
-    font-family: 'Montserrat', sans-serif;
-    text-align: justify;
-    line-height: 1.2;
-    padding-left: 5cm;
-  }
-  .introName {
-    padding-top: 10px;
-    font-size: 35px;
-    text-decoration: none;
-    margin: 0;
-    /* remove gap */
-  }
-  .introSubs {
-    font-size: 15px;
-    text-decoration: none;
-    margin: 0;
-    /* remove gap */
-  }
-  * {
-    box-sizing: border-box;
-  }
-  .row {
-    padding-top: 3px;
-    display: flex;
-  }
-  /* Create three equal columns that sits next to each other */
-  .column {
-    padding: 5px;
-  }
+.navBar {
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.navBar a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navBar-right {
+  float: right;
+}
+
+.navName {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Lato', sans-serif;
+}
+
+.navBar a:hover {
+  background-color: #e8e8e83b;
+}
+
+.navBar a.active {
+  font-weight: bold;
+}
+
+.profileBar {
+  /* margin : 15% 10% 0 19% !important; */
+  min-width: 720px;
+  justify-content: center;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.profilePict {
+  float: left;
+  max-width: 150px;
+  min-width: 150px;
+  border-radius: 50%;
+}
+
+.profileText {
+  font-family: 'Montserrat', sans-serif;
+  text-align: justify;
+  line-height: 1.2;
+  padding-left: 5cm;
+}
+
+.introName {
+  padding-top: 10px;
+  font-size: 35px;
+  text-decoration: none;
+  margin: 0;
+  /* remove gap */
+}
+
+.introSubs {
+  font-size: 15px;
+  text-decoration: none;
+  margin: 0;
+  /* remove gap */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  padding-top: 3px;
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+
+.column {
+  padding: 5px;
+}
